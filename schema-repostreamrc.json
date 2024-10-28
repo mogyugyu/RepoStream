@@ -1,0 +1,116 @@
+{
+  "$defs": {
+    "Config": {
+      "additionalProperties": false,
+      "properties": {
+        "categoryId": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "developers": {
+          "additionalProperties": {
+            "additionalProperties": false,
+            "properties": {
+              "discordId": {
+                "type": "string"
+              },
+              "githubId": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "githubId",
+              "discordId"
+            ],
+            "type": "object"
+          },
+          "type": "object"
+        },
+        "guildId": {
+          "type": "string"
+        },
+        "orgColor": {
+          "type": "string"
+        },
+        "orgConfigs": {
+          "additionalProperties": {
+            "additionalProperties": false,
+            "properties": {
+              "categoryId": {
+                "type": "string"
+              },
+              "guildId": {
+                "type": "string"
+              },
+              "ignoreRepositories": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "orgColor": {
+                "type": "string"
+              },
+              "sendTo": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "forumId": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "forumId"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "categoryId": {
+                        "anyOf": [
+                          {
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "guildId": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "guildId",
+                      "categoryId"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              }
+            },
+            "required": [],
+            "type": "object"
+          },
+          "type": "object"
+        }
+      },
+      "required": [
+        "orgColor",
+        "guildId",
+        "categoryId"
+      ],
+      "type": "object"
+    }
+  },
+  "$ref": "#/$defs/Config",
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

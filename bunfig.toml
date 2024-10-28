@@ -1,0 +1,6 @@
+#:schema https://json.schemastore.org/bunfig.json
+
+[install]
+exact = true
+[install.lockfile]
+print = "yarn"
