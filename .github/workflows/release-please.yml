@@ -1,0 +1,27 @@
+on:
+  push:
+    branches: [main]
+
+name: release-please
+
+permissions: {}
+
+jobs:
+  release-please:
+    if: github.repository_owner == 'mogyugyu'
+    permissions: {}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate a token
+        id: generate_token
+        uses: actions/create-github-app-token@5d869da34e18e7287c1daad50e0b8ea0f506ce69 # v1.11.0
+        with:
+          app-id: ${{ vars.MOGYUGYU_RELEASE_APP_ID }}
+          private-key: ${{ secrets.MOGYUGYU_RELEASE_PRIVATE_KEY }}
+      - uses: googleapis/release-please-action@7987652d64b4581673a76e33ad5e98e3dd56832f # v4.1.3
+        id: release
+        with:
+          token: ${{ steps.generate_token.outputs.token }}
+          config-file: .release-please/release-please-config.json
+          manifest-file: .release-please/.release-please-manifest.json
+          skip-github-pull-request: ${{ startsWith(github.event.head_commit.message, 'release:') && github.event.head_commit.author.name == format('{0}[bot]', steps.generate_token.outputs.app-slug) }}
