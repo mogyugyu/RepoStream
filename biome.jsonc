@@ -8,7 +8,7 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": ["schema-repostreamrc.json", "yarn.lock", "node_modules"]
+		"ignore": ["schema-repostreamrc.json", "bun.lock", "node_modules"]
 	},
 	"formatter": {
 		"enabled": true,
