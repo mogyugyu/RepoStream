@@ -4,7 +4,7 @@
     "": {
       "dependencies": {
         "@discordjs/collection": "2.1.1",
-        "@discordjs/core": "2.0.0",
+        "@discordjs/core": "2.0.1",
         "@discordjs/rest": "2.4.0",
         "@discordjs/ws": "2.0.0",
         "@octokit/webhooks": "13.3.0",
@@ -62,7 +62,7 @@
 
     "@discordjs/collection": ["@discordjs/collection@2.1.1", "", {}, "sha512-LiSusze9Tc7qF03sLCujF5iZp7K+vRNEDBZ86FT9aQAv3vxMLihUvKvpsCWiQ2DJq1tVckopKm1rxomgNUc9hg=="],
 
-    "@discordjs/core": ["@discordjs/core@2.0.0", "", { "dependencies": { "@discordjs/rest": "^2.4.0", "@discordjs/util": "^1.1.1", "@discordjs/ws": "^2.0.0", "@sapphire/snowflake": "^3.5.3", "@vladfrangu/async_event_emitter": "^2.4.6", "discord-api-types": "0.37.97" } }, "sha512-N5PaTaEsEJyX9/KpcRN4+Jzc2qWvi55DVD2U6PXlbK1+C1du+B7yC4ey5yNeI2lG8k4vha3iGPR0LPemUkvIZA=="],
+    "@discordjs/core": ["@discordjs/core@2.0.1", "", { "dependencies": { "@discordjs/rest": "^2.4.1", "@discordjs/util": "^1.1.1", "@discordjs/ws": "^2.0.1", "@sapphire/snowflake": "^3.5.3", "@vladfrangu/async_event_emitter": "^2.4.6", "discord-api-types": "^0.37.114" } }, "sha512-tj//rnPhdniq+Clxq0tq5wI7QTMH4IgyXkUFI32+ashIRpFJ1+J1btNG3FA74oATFu2sYy/zT9CKLWW4jp2RGQ=="],
 
     "@discordjs/rest": ["@discordjs/rest@2.4.0", "", { "dependencies": { "@discordjs/collection": "^2.1.1", "@discordjs/util": "^1.1.1", "@sapphire/async-queue": "^1.5.3", "@sapphire/snowflake": "^3.5.3", "@vladfrangu/async_event_emitter": "^2.4.6", "discord-api-types": "0.37.97", "magic-bytes.js": "^1.10.0", "tslib": "^2.6.3", "undici": "6.19.8" } }, "sha512-Xb2irDqNcq+O8F0/k/NaDp7+t091p+acb51iA4bCKfIn+WFWd6HrNvcsSbMMxIR9NjcMZS6NReTKygqiQN+ntw=="],
 
@@ -186,7 +186,7 @@
 
     "devlop": ["devlop@1.1.0", "", { "dependencies": { "dequal": "^2.0.0" } }, "sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA=="],
 
-    "discord-api-types": ["discord-api-types@0.37.97", "", {}, "sha512-No1BXPcVkyVD4ZVmbNgDKaBoqgeQ+FJpzZ8wqHkfmBnTZig1FcH3iPPersiK1TUIAzgClh2IvOuVUYfcWLQAOA=="],
+    "discord-api-types": ["discord-api-types@0.37.119", "", {}, "sha512-WasbGFXEB+VQWXlo6IpW3oUv73Yuau1Ig4AZF/m13tXcTKnMpc/mHjpztIlz4+BM9FG9BHQkEXiPto3bKduQUg=="],
 
     "entities": ["entities@4.5.0", "", {}, "sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw=="],
 
@@ -425,6 +425,14 @@
     "yargs-parser": ["yargs-parser@20.2.9", "", {}, "sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w=="],
 
     "zwitch": ["zwitch@2.0.4", "", {}, "sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A=="],
+
+    "@discordjs/core/@discordjs/rest": ["@discordjs/rest@2.4.2", "", { "dependencies": { "@discordjs/collection": "^2.1.1", "@discordjs/util": "^1.1.1", "@sapphire/async-queue": "^1.5.3", "@sapphire/snowflake": "^3.5.3", "@vladfrangu/async_event_emitter": "^2.4.6", "discord-api-types": "^0.37.114", "magic-bytes.js": "^1.10.0", "tslib": "^2.6.3", "undici": "6.19.8" } }, "sha512-9bOvXYLQd5IBg/kKGuEFq3cstVxAMJ6wMxO2U3wjrgO+lHv8oNCT+BBRpuzVQh7BoXKvk/gpajceGvQUiRoJ8g=="],
+
+    "@discordjs/core/@discordjs/ws": ["@discordjs/ws@2.0.1", "", { "dependencies": { "@discordjs/collection": "^2.1.1", "@discordjs/rest": "^2.4.1", "@discordjs/util": "^1.1.1", "@sapphire/async-queue": "^1.5.3", "@types/ws": "^8.5.12", "@vladfrangu/async_event_emitter": "^2.4.6", "discord-api-types": "^0.37.114", "tslib": "^2.6.3", "ws": "^8.18.0" } }, "sha512-5etVbXdwThIT5+KfU+uiBh358Ql58f2vf1W9B5ZXxaZuIlpiX/VC/G0Lr/xuEcs6cL+/HZtEIUf0p9dQfEDang=="],
+
+    "@discordjs/rest/discord-api-types": ["discord-api-types@0.37.97", "", {}, "sha512-No1BXPcVkyVD4ZVmbNgDKaBoqgeQ+FJpzZ8wqHkfmBnTZig1FcH3iPPersiK1TUIAzgClh2IvOuVUYfcWLQAOA=="],
+
+    "@discordjs/ws/discord-api-types": ["discord-api-types@0.37.97", "", {}, "sha512-No1BXPcVkyVD4ZVmbNgDKaBoqgeQ+FJpzZ8wqHkfmBnTZig1FcH3iPPersiK1TUIAzgClh2IvOuVUYfcWLQAOA=="],
 
     "@types/ws/@types/node": ["@types/node@22.8.1", "", { "dependencies": { "undici-types": "~6.19.8" } }, "sha512-k6Gi8Yyo8EtrNtkHXutUu2corfDf9su95VYVP10aGYMMROM6SAItZi0w1XszA6RtWTHSVp5OeFof37w0IEqCQg=="],
 
