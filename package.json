@@ -39,7 +39,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@gcornut/cli-valibot-to-json-schema": "0.2.0",
-		"@octokit/openapi-webhooks-types": "8.3.0",
+		"@octokit/openapi-webhooks-types": "9.1.0",
 		"@types/bun": "latest",
 		"@types/mdast": "4.0.4",
 		"smee-client": "2.0.4"
