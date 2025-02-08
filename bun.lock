@@ -7,7 +7,7 @@
         "@discordjs/core": "2.0.1",
         "@discordjs/rest": "2.4.2",
         "@discordjs/ws": "2.0.1",
-        "@octokit/webhooks": "13.3.0",
+        "@octokit/webhooks": "13.6.0",
         "@sapphire/async-queue": "1.5.5",
         "convict": "6.2.4",
         "mdast-util-definitions": "6.0.0",
@@ -120,17 +120,17 @@
 
     "@gcornut/cli-valibot-to-json-schema": ["@gcornut/cli-valibot-to-json-schema@0.2.0", "", { "dependencies": { "@valibot/to-json-schema": "^0.2.0" }, "optionalDependencies": { "esbuild-runner": ">= 2.2.2" }, "peerDependencies": { "valibot": ">= 0.31.0" }, "bin": { "cli-valibot-to-json-schema": "bin/index.js" } }, "sha512-6lTPVcjugFGdWeedBAW1/KI35Re+s338GFq1cFe04OF0QySmPFC8cmd+UFflw2dAZI9QHdqPATKexRBZnwIwdw=="],
 
-    "@octokit/openapi-types": ["@octokit/openapi-types@22.2.0", "", {}, "sha512-QBhVjcUa9W7Wwhm6DBFu6ZZ+1/t/oYxqc2tp81Pi41YNuJinbFRx8B133qVOrAaBbF7D/m0Et6f9/pZt9Rc+tg=="],
+    "@octokit/openapi-types": ["@octokit/openapi-types@23.0.1", "", {}, "sha512-izFjMJ1sir0jn0ldEKhZ7xegCTj/ObmEDlEfpFrx4k/JyZSMRHbO3/rBwgE7f3m2DHt+RrNGIVw4wSmwnm3t/g=="],
 
     "@octokit/openapi-webhooks-types": ["@octokit/openapi-webhooks-types@9.1.0", "", {}, "sha512-bO1D2jLdU8qEvqmbWjNxJzDYSFT4wesiYKIKP6f4LaM0XUGtn/0LBv/20hu9YqcnpdX38X5o/xANTMtIAqdwYw=="],
 
-    "@octokit/request-error": ["@octokit/request-error@6.1.5", "", { "dependencies": { "@octokit/types": "^13.0.0" } }, "sha512-IlBTfGX8Yn/oFPMwSfvugfncK2EwRLjzbrpifNaMY8o/HTEAFqCA1FZxjD9cWvSKBHgrIhc4CSBIzMxiLsbzFQ=="],
+    "@octokit/request-error": ["@octokit/request-error@6.1.6", "", { "dependencies": { "@octokit/types": "^13.6.2" } }, "sha512-pqnVKYo/at0NuOjinrgcQYpEbv4snvP3bKMRqHaD9kIsk9u1LCpb2smHZi8/qJfgeNqLo5hNW4Z7FezNdEo0xg=="],
 
-    "@octokit/types": ["@octokit/types@13.6.1", "", { "dependencies": { "@octokit/openapi-types": "^22.2.0" } }, "sha512-PHZE9Z+kWXb23Ndik8MKPirBPziOc0D2/3KH1P+6jK5nGWe96kadZuE4jev2/Jq7FvIfTlT2Ltg8Fv2x1v0a5g=="],
+    "@octokit/types": ["@octokit/types@13.8.0", "", { "dependencies": { "@octokit/openapi-types": "^23.0.1" } }, "sha512-x7DjTIbEpEWXK99DMd01QfWy0hd5h4EN+Q7shkdKds3otGQP+oWE/y0A76i1OvH9fygo4ddvNf7ZvF0t78P98A=="],
 
-    "@octokit/webhooks": ["@octokit/webhooks@13.3.0", "", { "dependencies": { "@octokit/openapi-webhooks-types": "8.3.0", "@octokit/request-error": "^6.0.1", "@octokit/webhooks-methods": "^5.0.0" } }, "sha512-TUkJLtI163Bz5+JK0O+zDkQpn4gKwN+BovclUvCj6pI/6RXrFqQvUMRS2M+Rt8Rv0qR3wjoMoOPmpJKeOh0nBg=="],
+    "@octokit/webhooks": ["@octokit/webhooks@13.6.0", "", { "dependencies": { "@octokit/openapi-webhooks-types": "9.1.0", "@octokit/request-error": "^6.1.6", "@octokit/webhooks-methods": "^5.1.1" } }, "sha512-qoYP1g6ZP01m8LtKjC+NLuAqRbiVzS5VmnwoEYlrQr6TaLRtb5yAMxWCq5/AqfrUF2Wx6ZQ9IJ4mAFytEn7J9A=="],
 
-    "@octokit/webhooks-methods": ["@octokit/webhooks-methods@5.1.0", "", {}, "sha512-yFZa3UH11VIxYnnoOYCVoJ3q4ChuSOk2IVBBQ0O3xtKX4x9bmKb/1t+Mxixv2iUhzMdOl1qeWJqEhouXXzB3rQ=="],
+    "@octokit/webhooks-methods": ["@octokit/webhooks-methods@5.1.1", "", {}, "sha512-NGlEHZDseJTCj8TMMFehzwa9g7On4KJMPVHDSrHxCQumL6uSQR8wIkP/qesv52fXqV1BPf4pTxwtS31ldAt9Xg=="],
 
     "@sapphire/async-queue": ["@sapphire/async-queue@1.5.5", "", {}, "sha512-cvGzxbba6sav2zZkH8GPf2oGk9yYoD5qrNWdu9fRehifgnFZJMV+nuy2nON2roRO4yQQ+v7MK/Pktl/HgfsUXg=="],
 
@@ -429,8 +429,6 @@
     "@discordjs/rest/@sapphire/async-queue": ["@sapphire/async-queue@1.5.3", "", {}, "sha512-x7zadcfJGxFka1Q3f8gCts1F0xMwCKbZweM85xECGI0hBTeIZJGGCrHgLggihBoprlQ/hBmDR5LKfIPqnmHM3w=="],
 
     "@discordjs/ws/@sapphire/async-queue": ["@sapphire/async-queue@1.5.3", "", {}, "sha512-x7zadcfJGxFka1Q3f8gCts1F0xMwCKbZweM85xECGI0hBTeIZJGGCrHgLggihBoprlQ/hBmDR5LKfIPqnmHM3w=="],
-
-    "@octokit/webhooks/@octokit/openapi-webhooks-types": ["@octokit/openapi-webhooks-types@8.3.0", "", {}, "sha512-vKLsoR4xQxg4Z+6rU/F65ItTUz/EXbD+j/d4mlq2GW8TsA4Tc8Kdma2JTAAJ5hrKWUQzkR/Esn2fjsqiVRYaQg=="],
 
     "@types/ws/@types/node": ["@types/node@22.8.1", "", { "dependencies": { "undici-types": "~6.19.8" } }, "sha512-k6Gi8Yyo8EtrNtkHXutUu2corfDf9su95VYVP10aGYMMROM6SAItZi0w1XszA6RtWTHSVp5OeFof37w0IEqCQg=="],
 
