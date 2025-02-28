@@ -7,7 +7,7 @@
         "@discordjs/core": "2.0.1",
         "@discordjs/rest": "2.4.3",
         "@discordjs/ws": "2.0.1",
-        "@octokit/webhooks": "13.6.1",
+        "@octokit/webhooks": "13.7.4",
         "@sapphire/async-queue": "1.5.5",
         "convict": "6.2.4",
         "mdast-util-definitions": "6.0.0",
@@ -128,7 +128,7 @@
 
     "@octokit/types": ["@octokit/types@13.8.0", "", { "dependencies": { "@octokit/openapi-types": "^23.0.1" } }, "sha512-x7DjTIbEpEWXK99DMd01QfWy0hd5h4EN+Q7shkdKds3otGQP+oWE/y0A76i1OvH9fygo4ddvNf7ZvF0t78P98A=="],
 
-    "@octokit/webhooks": ["@octokit/webhooks@13.6.1", "", { "dependencies": { "@octokit/openapi-webhooks-types": "9.1.0", "@octokit/request-error": "^6.1.7", "@octokit/webhooks-methods": "^5.1.1" } }, "sha512-vk0jnc5k0/mLMUI4IA9LfSYkLs3OHtfa7B3h4aRG6to912V3wIG8lS/wKwatwYxRkAug4oE8is0ERRI8pzoYTw=="],
+    "@octokit/webhooks": ["@octokit/webhooks@13.7.4", "", { "dependencies": { "@octokit/openapi-webhooks-types": "10.1.1", "@octokit/request-error": "^6.1.7", "@octokit/webhooks-methods": "^5.1.1" } }, "sha512-f386XyLTieQbgKPKS6ZMlH4dq8eLsxNddwofiKRZCq0bZ2gikoFwMD99K6l1oAwqe/KZNzrEziGicRgnzplplQ=="],
 
     "@octokit/webhooks-methods": ["@octokit/webhooks-methods@5.1.1", "", {}, "sha512-NGlEHZDseJTCj8TMMFehzwa9g7On4KJMPVHDSrHxCQumL6uSQR8wIkP/qesv52fXqV1BPf4pTxwtS31ldAt9Xg=="],
 
@@ -429,6 +429,8 @@
     "@discordjs/ws/@discordjs/rest": ["@discordjs/rest@2.4.2", "", { "dependencies": { "@discordjs/collection": "^2.1.1", "@discordjs/util": "^1.1.1", "@sapphire/async-queue": "^1.5.3", "@sapphire/snowflake": "^3.5.3", "@vladfrangu/async_event_emitter": "^2.4.6", "discord-api-types": "^0.37.114", "magic-bytes.js": "^1.10.0", "tslib": "^2.6.3", "undici": "6.19.8" } }, "sha512-9bOvXYLQd5IBg/kKGuEFq3cstVxAMJ6wMxO2U3wjrgO+lHv8oNCT+BBRpuzVQh7BoXKvk/gpajceGvQUiRoJ8g=="],
 
     "@discordjs/ws/@sapphire/async-queue": ["@sapphire/async-queue@1.5.3", "", {}, "sha512-x7zadcfJGxFka1Q3f8gCts1F0xMwCKbZweM85xECGI0hBTeIZJGGCrHgLggihBoprlQ/hBmDR5LKfIPqnmHM3w=="],
+
+    "@octokit/webhooks/@octokit/openapi-webhooks-types": ["@octokit/openapi-webhooks-types@10.1.1", "", {}, "sha512-qBfqQVIDQaCFeGCofXieJDwvXcGgDn17+UwZ6WW6lfEvGYGreLFzTiaz9xjet9Us4zDf8iasoW3ixUj/R5lMhA=="],
 
     "@types/ws/@types/node": ["@types/node@22.8.1", "", { "dependencies": { "undici-types": "~6.19.8" } }, "sha512-k6Gi8Yyo8EtrNtkHXutUu2corfDf9su95VYVP10aGYMMROM6SAItZi0w1XszA6RtWTHSVp5OeFof37w0IEqCQg=="],
 
