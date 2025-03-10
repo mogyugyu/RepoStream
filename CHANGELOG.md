@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.2](https://github.com/mogyugyu/RepoStream/compare/v0.1.1...v0.1.2) (2025-03-10)
+
+
+### Dependencies
+
+* update dependency @discordjs/rest to v2.4.3 ([#21](https://github.com/mogyugyu/RepoStream/issues/21)) ([8f06453](https://github.com/mogyugyu/RepoStream/commit/8f0645361efa5d0efa6f145150d29e3f5a29db58))
+* update dependency @octokit/webhooks to v13.6.1 ([#24](https://github.com/mogyugyu/RepoStream/issues/24)) ([907129d](https://github.com/mogyugyu/RepoStream/commit/907129dece0289a305c146952d9c2e19c519dd51))
+* update dependency @octokit/webhooks to v13.7.4 ([#27](https://github.com/mogyugyu/RepoStream/issues/27)) ([bc28d5b](https://github.com/mogyugyu/RepoStream/commit/bc28d5b480b50c9e36217666fda4ecc0b6a25915))
+* update dependency remark-gfm to v4.0.1 ([#22](https://github.com/mogyugyu/RepoStream/issues/22)) ([08201ea](https://github.com/mogyugyu/RepoStream/commit/08201eaf3730ae8920bc450704f1aae7e20de9da))
+
 ## [0.1.1](https://github.com/mogyugyu/RepoStream/compare/v0.1.0...v0.1.1) (2025-02-08)
 
 
