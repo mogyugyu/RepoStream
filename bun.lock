@@ -30,7 +30,7 @@
       },
       "devDependencies": {
         "@biomejs/biome": "1.9.4",
-        "@gcornut/cli-valibot-to-json-schema": "0.2.0",
+        "@gcornut/cli-valibot-to-json-schema": "0.2.1",
         "@octokit/openapi-webhooks-types": "10.3.0",
         "@types/bun": "latest",
         "@types/mdast": "4.0.4",
@@ -118,7 +118,7 @@
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.24.0", "", { "os": "win32", "cpu": "x64" }, "sha512-7IAFPrjSQIJrGsK6flwg7NFmwBoSTyF3rl7If0hNUFQU4ilTsEPL6GuMuU9BfIWVVGuRnuIidkSMC+c0Otu8IA=="],
 
-    "@gcornut/cli-valibot-to-json-schema": ["@gcornut/cli-valibot-to-json-schema@0.2.0", "", { "dependencies": { "@valibot/to-json-schema": "^0.2.0" }, "optionalDependencies": { "esbuild-runner": ">= 2.2.2" }, "peerDependencies": { "valibot": ">= 0.31.0" }, "bin": { "cli-valibot-to-json-schema": "bin/index.js" } }, "sha512-6lTPVcjugFGdWeedBAW1/KI35Re+s338GFq1cFe04OF0QySmPFC8cmd+UFflw2dAZI9QHdqPATKexRBZnwIwdw=="],
+    "@gcornut/cli-valibot-to-json-schema": ["@gcornut/cli-valibot-to-json-schema@0.2.1", "", { "dependencies": { "@valibot/to-json-schema": "^1.0.0" }, "optionalDependencies": { "esbuild-runner": ">= 2.2.2" }, "peerDependencies": { "valibot": ">= 0.31.0" }, "bin": { "cli-valibot-to-json-schema": "bin/index.js" } }, "sha512-QanE997EsTtBAewkHVG6KaAroXFuL1u3LRV3wDlBuiz/tc9LiBVqLt/H4TaTzaoliU6XBNlR5uAvfbDcnxqasA=="],
 
     "@octokit/openapi-types": ["@octokit/openapi-types@23.0.1", "", {}, "sha512-izFjMJ1sir0jn0ldEKhZ7xegCTj/ObmEDlEfpFrx4k/JyZSMRHbO3/rBwgE7f3m2DHt+RrNGIVw4wSmwnm3t/g=="],
 
@@ -154,7 +154,7 @@
 
     "@ungap/structured-clone": ["@ungap/structured-clone@1.2.0", "", {}, "sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ=="],
 
-    "@valibot/to-json-schema": ["@valibot/to-json-schema@0.2.1", "", { "peerDependencies": { "valibot": ">=0.31.0 <1" } }, "sha512-Cyb/2vz56CvRp5VzO4a0lWxCwMG3BxWZrZRd/EyDMkx1yhfeSP2r8b7SEH+s+f16vdiMEjtRws/4EiOXLZlbMQ=="],
+    "@valibot/to-json-schema": ["@valibot/to-json-schema@1.0.0", "", { "peerDependencies": { "valibot": "^1.0.0" } }, "sha512-/9crJgPptVsGCL6X+JPDQyaJwkalSZ/52WuF8DiRUxJgcmpNdzYRfZ+gqMEP8W3CTVfuMWPqqvIgfwJ97f9Etw=="],
 
     "@vladfrangu/async_event_emitter": ["@vladfrangu/async_event_emitter@2.4.6", "", {}, "sha512-RaI5qZo6D2CVS6sTHFKg1v5Ohq/+Bo2LZ5gzUEwZ/WkHhwtGTCB/sVLw8ijOkAUxasZ+WshN/Rzj4ywsABJ5ZA=="],
 
