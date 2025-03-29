@@ -7,7 +7,7 @@
         "@discordjs/core": "2.0.1",
         "@discordjs/rest": "2.4.3",
         "@discordjs/ws": "2.0.1",
-        "@octokit/webhooks": "13.7.5",
+        "@octokit/webhooks": "13.8.0",
         "@sapphire/async-queue": "1.5.5",
         "convict": "6.2.4",
         "mdast-util-definitions": "6.0.0",
@@ -31,7 +31,7 @@
       "devDependencies": {
         "@biomejs/biome": "1.9.4",
         "@gcornut/cli-valibot-to-json-schema": "1.0.0",
-        "@octokit/openapi-webhooks-types": "10.3.0",
+        "@octokit/openapi-webhooks-types": "10.4.0",
         "@types/bun": "latest",
         "@types/mdast": "4.0.4",
         "smee-client": "3.1.1",
@@ -122,13 +122,13 @@
 
     "@octokit/openapi-types": ["@octokit/openapi-types@23.0.1", "", {}, "sha512-izFjMJ1sir0jn0ldEKhZ7xegCTj/ObmEDlEfpFrx4k/JyZSMRHbO3/rBwgE7f3m2DHt+RrNGIVw4wSmwnm3t/g=="],
 
-    "@octokit/openapi-webhooks-types": ["@octokit/openapi-webhooks-types@10.3.0", "", {}, "sha512-Dog+FB4pvsfcGZ9CFyYwb7I6K4QkzCDuN0H3hh5Nr9mMQ4wbBceqUKyJNKN2A0SQ6j4UU3CYNuvfoX9mQlhLUQ=="],
+    "@octokit/openapi-webhooks-types": ["@octokit/openapi-webhooks-types@10.4.0", "", {}, "sha512-HMiF7FUiVBYfp8pPijMTkWuPELQB6XkPftrnSuK1C1YXaaq2+0ganiQkorEQfXTmhtwlgHJwXT6P8miVhIyjQA=="],
 
     "@octokit/request-error": ["@octokit/request-error@6.1.7", "", { "dependencies": { "@octokit/types": "^13.6.2" } }, "sha512-69NIppAwaauwZv6aOzb+VVLwt+0havz9GT5YplkeJv7fG7a40qpLt/yZKyiDxAhgz0EtgNdNcb96Z0u+Zyuy2g=="],
 
     "@octokit/types": ["@octokit/types@13.8.0", "", { "dependencies": { "@octokit/openapi-types": "^23.0.1" } }, "sha512-x7DjTIbEpEWXK99DMd01QfWy0hd5h4EN+Q7shkdKds3otGQP+oWE/y0A76i1OvH9fygo4ddvNf7ZvF0t78P98A=="],
 
-    "@octokit/webhooks": ["@octokit/webhooks@13.7.5", "", { "dependencies": { "@octokit/openapi-webhooks-types": "10.3.0", "@octokit/request-error": "^6.1.7", "@octokit/webhooks-methods": "^5.1.1" } }, "sha512-qmmu4cfKmm58RWyDPUDoI7ls9JWw88qbqPzEi+TDBaSirHQPsixxdPU4OjPDcnDnjee7JXv525yv4qNN3BRlyg=="],
+    "@octokit/webhooks": ["@octokit/webhooks@13.8.0", "", { "dependencies": { "@octokit/openapi-webhooks-types": "10.4.0", "@octokit/request-error": "^6.1.7", "@octokit/webhooks-methods": "^5.1.1" } }, "sha512-3PCWyFBNbW2+Ox36VAkSqlPoIb96NZiPcICRYySHZrDTM2NuNxvrjPeaQDj2egqILs9EZFObRTHVMe4XxXJV7w=="],
 
     "@octokit/webhooks-methods": ["@octokit/webhooks-methods@5.1.1", "", {}, "sha512-NGlEHZDseJTCj8TMMFehzwa9g7On4KJMPVHDSrHxCQumL6uSQR8wIkP/qesv52fXqV1BPf4pTxwtS31ldAt9Xg=="],
 
