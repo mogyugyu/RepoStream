@@ -15,7 +15,7 @@
 		"@discordjs/core": "2.0.1",
 		"@discordjs/rest": "2.4.3",
 		"@discordjs/ws": "2.0.1",
-		"@octokit/webhooks": "13.7.5",
+		"@octokit/webhooks": "13.8.0",
 		"@sapphire/async-queue": "1.5.5",
 		"convict": "6.2.4",
 		"mdast-util-definitions": "6.0.0",
@@ -39,7 +39,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@gcornut/cli-valibot-to-json-schema": "1.0.0",
-		"@octokit/openapi-webhooks-types": "10.3.0",
+		"@octokit/openapi-webhooks-types": "10.4.0",
 		"@types/bun": "latest",
 		"@types/mdast": "4.0.4",
 		"smee-client": "3.1.1"
