@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.3](https://github.com/mogyugyu/RepoStream/compare/v0.1.2...v0.1.3) (2025-04-10)
+
+
+### Dependencies
+
+* update dependency rehype-remark to v10.0.1 ([#42](https://github.com/mogyugyu/RepoStream/issues/42)) ([720d8ef](https://github.com/mogyugyu/RepoStream/commit/720d8effd1f96bdb66d56c1dc857613624b1d789))
+* update dependency remark-rehype to v11.1.2 ([#43](https://github.com/mogyugyu/RepoStream/issues/43)) ([8f2040f](https://github.com/mogyugyu/RepoStream/commit/8f2040fb29a7ff477872a6de012706207863b483))
+* update dependency valibot to v1 ([#36](https://github.com/mogyugyu/RepoStream/issues/36)) ([fcb1016](https://github.com/mogyugyu/RepoStream/commit/fcb1016efad7ffa8099c2c83eb86df9561aa226b))
+* update octokit monorepo ([#35](https://github.com/mogyugyu/RepoStream/issues/35)) ([c52b0fa](https://github.com/mogyugyu/RepoStream/commit/c52b0fa5b035bff742e3c318adb66f0108aa207f))
+
 ## [0.1.2](https://github.com/mogyugyu/RepoStream/compare/v0.1.1...v0.1.2) (2025-03-10)
 
 
