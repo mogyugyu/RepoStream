@@ -30,7 +30,7 @@
       },
       "devDependencies": {
         "@biomejs/biome": "1.9.4",
-        "@gcornut/cli-valibot-to-json-schema": "1.0.0",
+        "@gcornut/cli-valibot-to-json-schema": "1.0.1",
         "@octokit/openapi-webhooks-types": "11.0.0",
         "@types/bun": "latest",
         "@types/mdast": "4.0.4",
@@ -118,7 +118,7 @@
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.24.0", "", { "os": "win32", "cpu": "x64" }, "sha512-7IAFPrjSQIJrGsK6flwg7NFmwBoSTyF3rl7If0hNUFQU4ilTsEPL6GuMuU9BfIWVVGuRnuIidkSMC+c0Otu8IA=="],
 
-    "@gcornut/cli-valibot-to-json-schema": ["@gcornut/cli-valibot-to-json-schema@1.0.0", "", { "dependencies": { "@valibot/to-json-schema": "^1.0.0" }, "optionalDependencies": { "esbuild-runner": ">= 2.2.2" }, "peerDependencies": { "valibot": ">= 0.31.0" }, "bin": { "cli-valibot-to-json-schema": "bin/index.js" } }, "sha512-frwTxtuZ/FXMehdo8+N7MC0FcgqZpLl1dY8vn924MMjt74Re8t74C2wJpfOJTjQp5EmdgyBZOzCoCXIQBh7bWA=="],
+    "@gcornut/cli-valibot-to-json-schema": ["@gcornut/cli-valibot-to-json-schema@1.0.1", "", { "dependencies": { "@valibot/to-json-schema": "^1.0.0" }, "optionalDependencies": { "esbuild-runner": ">= 2.2.2" }, "peerDependencies": { "valibot": ">= 0.31.0" }, "bin": { "cli-valibot-to-json-schema": "bin/index.js" } }, "sha512-m9wDTixONlqBrvImcmoOzYyiRj44KiHuiyVonppnw46X3bmr9a0F0la9ZjWMD8dbORldvMDBAN5iuRhqeqgrlg=="],
 
     "@octokit/openapi-types": ["@octokit/openapi-types@23.0.1", "", {}, "sha512-izFjMJ1sir0jn0ldEKhZ7xegCTj/ObmEDlEfpFrx4k/JyZSMRHbO3/rBwgE7f3m2DHt+RrNGIVw4wSmwnm3t/g=="],
 
