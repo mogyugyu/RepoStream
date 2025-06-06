@@ -15,7 +15,7 @@
 		"@discordjs/core": "2.1.0",
 		"@discordjs/rest": "2.5.0",
 		"@discordjs/ws": "2.0.2",
-		"@octokit/webhooks": "13.8.0",
+		"@octokit/webhooks": "13.9.0",
 		"@sapphire/async-queue": "1.5.5",
 		"convict": "6.2.4",
 		"mdast-util-definitions": "6.0.0",
