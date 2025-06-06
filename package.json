@@ -42,7 +42,7 @@
 		"@octokit/openapi-webhooks-types": "11.0.0",
 		"@types/bun": "latest",
 		"@types/mdast": "4.0.4",
-		"smee-client": "3.1.1"
+		"smee-client": "4.2.1"
 	},
 	"peerDependencies": {
 		"typescript": "5.8.3"
