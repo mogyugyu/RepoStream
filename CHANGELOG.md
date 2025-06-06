@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.3](https://github.com/mogyugyu/RepoStream/compare/v0.1.2...v0.1.3) (2025-06-06)
+
+
+### Dependencies
+
+* update dependency @discordjs/core to v2.1.0 ([#49](https://github.com/mogyugyu/RepoStream/issues/49)) ([f89f3eb](https://github.com/mogyugyu/RepoStream/commit/f89f3ebd2a392220a56356b09d365256885d99a8))
+* update dependency @discordjs/rest to v2.5.0 ([#50](https://github.com/mogyugyu/RepoStream/issues/50)) ([1c60853](https://github.com/mogyugyu/RepoStream/commit/1c6085367b39075db2ca3208c6afd1939ccdc870))
+* update dependency @discordjs/ws to v2.0.2 ([#48](https://github.com/mogyugyu/RepoStream/issues/48)) ([db82332](https://github.com/mogyugyu/RepoStream/commit/db82332424a02dc29b14a37679a1b8dc9e74ea39))
+* update dependency @octokit/webhooks to v13.9.0 ([#51](https://github.com/mogyugyu/RepoStream/issues/51)) ([b3c1fb2](https://github.com/mogyugyu/RepoStream/commit/b3c1fb20b00655aa3b6f2cfabeb34b73e74c4257))
+* update dependency rehype-remark to v10.0.1 ([#42](https://github.com/mogyugyu/RepoStream/issues/42)) ([720d8ef](https://github.com/mogyugyu/RepoStream/commit/720d8effd1f96bdb66d56c1dc857613624b1d789))
+* update dependency remark-rehype to v11.1.2 ([#43](https://github.com/mogyugyu/RepoStream/issues/43)) ([8f2040f](https://github.com/mogyugyu/RepoStream/commit/8f2040fb29a7ff477872a6de012706207863b483))
+* update dependency smol-toml to v1.3.4 ([#47](https://github.com/mogyugyu/RepoStream/issues/47)) ([3f08238](https://github.com/mogyugyu/RepoStream/commit/3f08238122225590fbd1467013909b7f239c4235))
+* update dependency valibot to v1 ([#36](https://github.com/mogyugyu/RepoStream/issues/36)) ([fcb1016](https://github.com/mogyugyu/RepoStream/commit/fcb1016efad7ffa8099c2c83eb86df9561aa226b))
+* update dependency valibot to v1.1.0 ([#52](https://github.com/mogyugyu/RepoStream/issues/52)) ([6e1f59d](https://github.com/mogyugyu/RepoStream/commit/6e1f59d84e473d522967477caaac0b59c1038a1e))
+* update octokit monorepo ([#35](https://github.com/mogyugyu/RepoStream/issues/35)) ([c52b0fa](https://github.com/mogyugyu/RepoStream/commit/c52b0fa5b035bff742e3c318adb66f0108aa207f))
+* update octokit monorepo ([#55](https://github.com/mogyugyu/RepoStream/issues/55)) ([dc80649](https://github.com/mogyugyu/RepoStream/commit/dc806494769bce0990528798c7f4d87b104746a3))
+
 ## [0.1.2](https://github.com/mogyugyu/RepoStream/compare/v0.1.1...v0.1.2) (2025-03-10)
 
 
