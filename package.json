@@ -34,7 +34,7 @@
 		"smol-toml": "1.3.4",
 		"unified": "11.0.5",
 		"unist-util-visit": "5.0.0",
-		"valibot": "1.0.0"
+		"valibot": "1.1.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
