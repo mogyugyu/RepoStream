@@ -12,7 +12,7 @@
 	"packageManager": "bun@1.1.42",
 	"dependencies": {
 		"@discordjs/collection": "2.1.1",
-		"@discordjs/core": "2.1.1",
+		"@discordjs/core": "2.2.0",
 		"@discordjs/rest": "2.5.1",
 		"@discordjs/ws": "2.0.3",
 		"@octokit/webhooks": "14.0.2",
