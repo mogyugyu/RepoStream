@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.1.3](https://github.com/mogyugyu/RepoStream/compare/v0.1.2...v0.1.3) (2025-07-30)
+
+
+### Dependencies
+
+* update dependency @discordjs/core to v2.1.0 ([#49](https://github.com/mogyugyu/RepoStream/issues/49)) ([f89f3eb](https://github.com/mogyugyu/RepoStream/commit/f89f3ebd2a392220a56356b09d365256885d99a8))
+* update dependency @discordjs/core to v2.1.1 ([#58](https://github.com/mogyugyu/RepoStream/issues/58)) ([99d6ce5](https://github.com/mogyugyu/RepoStream/commit/99d6ce5be7f4aee62a882b930c0d3c53b36827fa))
+* update dependency @discordjs/core to v2.2.0 ([#61](https://github.com/mogyugyu/RepoStream/issues/61)) ([2adb161](https://github.com/mogyugyu/RepoStream/commit/2adb161c7b6a9977d1e4bc7618de592cb918be51))
+* update dependency @discordjs/rest to v2.5.0 ([#50](https://github.com/mogyugyu/RepoStream/issues/50)) ([1c60853](https://github.com/mogyugyu/RepoStream/commit/1c6085367b39075db2ca3208c6afd1939ccdc870))
+* update dependency @discordjs/rest to v2.5.1 ([#57](https://github.com/mogyugyu/RepoStream/issues/57)) ([02d9a7b](https://github.com/mogyugyu/RepoStream/commit/02d9a7b78a1dedc73ae99919b2136e43db7dfe15))
+* update dependency @discordjs/ws to v2.0.2 ([#48](https://github.com/mogyugyu/RepoStream/issues/48)) ([db82332](https://github.com/mogyugyu/RepoStream/commit/db82332424a02dc29b14a37679a1b8dc9e74ea39))
+* update dependency @discordjs/ws to v2.0.3 ([#59](https://github.com/mogyugyu/RepoStream/issues/59)) ([d7a0cec](https://github.com/mogyugyu/RepoStream/commit/d7a0cecfcaf12488185876ebd4878608e63287d5))
+* update dependency @octokit/webhooks to v13.9.0 ([#51](https://github.com/mogyugyu/RepoStream/issues/51)) ([b3c1fb2](https://github.com/mogyugyu/RepoStream/commit/b3c1fb20b00655aa3b6f2cfabeb34b73e74c4257))
+* update dependency @octokit/webhooks to v14.1.0 ([#63](https://github.com/mogyugyu/RepoStream/issues/63)) ([c6d2d99](https://github.com/mogyugyu/RepoStream/commit/c6d2d99605082eb928a05c8119e5f7b996d572e2))
+* update dependency @octokit/webhooks to v14.1.1 ([#65](https://github.com/mogyugyu/RepoStream/issues/65)) ([8c45191](https://github.com/mogyugyu/RepoStream/commit/8c45191a9cd88d81262268999df9dd5af86d3fbe))
+* update dependency @octokit/webhooks to v14.1.2 ([#67](https://github.com/mogyugyu/RepoStream/issues/67)) ([178bbd9](https://github.com/mogyugyu/RepoStream/commit/178bbd99eb71fd40e340075cd5b3c067ae4b58ab))
+* update dependency rehype-remark to v10.0.1 ([#42](https://github.com/mogyugyu/RepoStream/issues/42)) ([720d8ef](https://github.com/mogyugyu/RepoStream/commit/720d8effd1f96bdb66d56c1dc857613624b1d789))
+* update dependency remark-rehype to v11.1.2 ([#43](https://github.com/mogyugyu/RepoStream/issues/43)) ([8f2040f](https://github.com/mogyugyu/RepoStream/commit/8f2040fb29a7ff477872a6de012706207863b483))
+* update dependency smol-toml to v1.3.4 ([#47](https://github.com/mogyugyu/RepoStream/issues/47)) ([3f08238](https://github.com/mogyugyu/RepoStream/commit/3f08238122225590fbd1467013909b7f239c4235))
+* update dependency smol-toml to v1.4.0 ([#62](https://github.com/mogyugyu/RepoStream/issues/62)) ([4ebfb63](https://github.com/mogyugyu/RepoStream/commit/4ebfb63e15eaf232ed91e40e0e607a4318f3c66f))
+* update dependency smol-toml to v1.4.1 ([#64](https://github.com/mogyugyu/RepoStream/issues/64)) ([1eff181](https://github.com/mogyugyu/RepoStream/commit/1eff1813c1f16afbc518b766c1d5eb29d6ede8cb))
+* update dependency valibot to v1 ([#36](https://github.com/mogyugyu/RepoStream/issues/36)) ([fcb1016](https://github.com/mogyugyu/RepoStream/commit/fcb1016efad7ffa8099c2c83eb86df9561aa226b))
+* update dependency valibot to v1.1.0 ([#52](https://github.com/mogyugyu/RepoStream/issues/52)) ([6e1f59d](https://github.com/mogyugyu/RepoStream/commit/6e1f59d84e473d522967477caaac0b59c1038a1e))
+* update octokit monorepo ([#35](https://github.com/mogyugyu/RepoStream/issues/35)) ([c52b0fa](https://github.com/mogyugyu/RepoStream/commit/c52b0fa5b035bff742e3c318adb66f0108aa207f))
+* update octokit monorepo ([#55](https://github.com/mogyugyu/RepoStream/issues/55)) ([dc80649](https://github.com/mogyugyu/RepoStream/commit/dc806494769bce0990528798c7f4d87b104746a3))
+
 ## [0.1.2](https://github.com/mogyugyu/RepoStream/compare/v0.1.1...v0.1.2) (2025-03-10)
 
 
