@@ -17,7 +17,7 @@
 		"@discordjs/ws": "2.0.3",
 		"@octokit/webhooks": "14.1.2",
 		"@sapphire/async-queue": "1.5.5",
-		"convict": "6.2.4",
+		"convict": "6.2.5",
 		"mdast-util-definitions": "6.0.0",
 		"moize": "6.1.6",
 		"rehype-raw": "7.0.0",
