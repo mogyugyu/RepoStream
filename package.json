@@ -19,7 +19,7 @@
 		"@sapphire/async-queue": "1.5.5",
 		"convict": "6.2.5",
 		"mdast-util-definitions": "6.0.0",
-		"moize": "6.1.6",
+		"moize": "6.1.7",
 		"rehype-raw": "7.0.0",
 		"rehype-remark": "10.0.1",
 		"rehype-stringify": "10.0.1",
