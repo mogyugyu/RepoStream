@@ -24,7 +24,7 @@
         "remark-squeeze-paragraphs": "6.0.0",
         "remark-stringify": "11.0.0",
         "remark-strip-badges": "7.0.0",
-        "smol-toml": "1.4.1",
+        "smol-toml": "1.6.1",
         "unified": "11.0.5",
         "unist-util-visit": "5.0.0",
         "valibot": "1.2.0",
@@ -369,7 +369,7 @@
 
     "smee-client": ["smee-client@4.3.1", "", { "dependencies": { "eventsource": "^4.0.0", "undici": "^7.0.0", "validator": "^13.11.0" }, "bin": { "smee": "bin/smee.js" } }, "sha512-4x8Plwtzx/w9N/0TT2tegle6zaDkPnUrPLZUhDt1phUlMMRhlYuSDdEKl0LygZPegsztYd7sWmcYAm8UQ60xQA=="],
 
-    "smol-toml": ["smol-toml@1.4.1", "", {}, "sha512-CxdwHXyYTONGHThDbq5XdwbFsuY4wlClRGejfE2NtwUtiHYsP1QtNsHb/hnj31jKYSchztJsaA8pSQoVzkfCFg=="],
+    "smol-toml": ["smol-toml@1.6.1", "", {}, "sha512-dWUG8F5sIIARXih1DTaQAX4SsiTXhInKf1buxdY9DIg4ZYPZK5nGM1VRIYmEbDbsHt7USo99xSLFu5Q1IqTmsg=="],
 
     "source-map": ["source-map@0.6.1", "", {}, "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="],
 
