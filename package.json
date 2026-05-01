@@ -33,7 +33,7 @@
 		"remark-strip-badges": "7.0.0",
 		"smol-toml": "1.6.1",
 		"unified": "11.0.5",
-		"unist-util-visit": "5.0.0",
+		"unist-util-visit": "5.1.0",
 		"valibot": "1.2.0"
 	},
 	"devDependencies": {
