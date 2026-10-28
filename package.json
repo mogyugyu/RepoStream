@@ -9,7 +9,7 @@
 		"smee-start": "smee --port=3000 --path=/api/github/webhooks --url",
 		"generate:schema": "cli-valibot-to-json-schema --force -o schema-repostreamrc.json -t Config ./src/valibot.ts"
 	},
-	"packageManager": "bun@1.1.42",
+	"packageManager": "bun@1.4.4",
 	"dependencies": {
 		"@discordjs/collection": "2.1.1",
 		"@discordjs/core": "2.4.0",
